@@ -1,3 +1,5 @@
+//Encapsulation
+//Data hiding for security
 package practice;
 
 public class Laptop {
