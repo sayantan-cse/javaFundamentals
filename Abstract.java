@@ -9,7 +9,13 @@ public abstract class Abstract {
     //abstract method only has signature
     // dont have body
     
+    //abstarct class should contain atleast one abstarct method
     public abstract void isAbstract();
+    
+    //abstract class can contain concrete method
+    public void show(){
+         System.out.println("lala");
+        
     
     
 }
