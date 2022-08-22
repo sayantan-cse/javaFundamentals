@@ -2,6 +2,8 @@
 //Functional Interface
 //Interface with exactly one abstract method
 //we know we cant object of interface
+//in java 8 we cann add concrete function to interface
+//using default keyword
 
 
 interface FunctiInter{
@@ -10,6 +12,10 @@ interface FunctiInter{
   //only signature
   //no definition
   public abstract int add(int x, int y);
+  public default void show()
+  {
+    System.out.println("i am default method in an interface");
+  }
 }
 
 class Main{
